@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Banking-project by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.guru.qa.testcases(failed)">
+    <classes>
+      <class name="com.guru.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="logoutTest"/>
+          <include name="closeBrowser"/>
+          <include name="validateLoginPageTest"/>
+        </methods>
+      </class> <!-- com.guru.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- com.guru.qa.testcases(failed) -->
+</suite> <!-- Failed suite [Banking-project by packages] -->
